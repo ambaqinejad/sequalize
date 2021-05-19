@@ -1,0 +1,32 @@
+{
+  "name": "sequelize",
+  "version": "1.0.0",
+  "description": "Working with mysql in node.js applications",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ambaqinejad/sequalize.git"
+  },
+  "keywords": [
+    "mysql",
+    "sequelize",
+    "node.js",
+    "express.js",
+    "orm"
+  ],
+  "author": "Amir Hosein Baqinejad (ambaqinejad)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ambaqinejad/sequalize/issues"
+  },
+  "homepage": "https://github.com/ambaqinejad/sequalize#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2"
+  }
+}
