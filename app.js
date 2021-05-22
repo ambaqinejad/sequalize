@@ -1,6 +1,7 @@
 const express = require("express");
 const productRouter = require("./routes/product");
 const adminRouter = require("./routes/admin");
+const cartRouter = require("./routes/cart");
 // const db = require("./utils/database");
 const relations = require("./utils/relations");
 const User = require("./models/user");
@@ -26,6 +27,7 @@ app.use((req, res, next) => {
 
 app.use("/product", productRouter);
 app.use("/admin", adminRouter);
+app.use("/cart", cartRouter);
 
 sequelize
   // .sync({ force: true })
